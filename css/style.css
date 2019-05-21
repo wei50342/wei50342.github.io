@@ -481,6 +481,22 @@ nav ul li a {
   max-width: 100%;
 }
 
+.progress-line{
+  margin: 1em 0;
+}
+
+.progress-line .progress {
+  height: 1rem;
+}
+
+.progress {
+  font-size: 0.75em;
+  line-height: 8em;
+  text-align: center;
+  background-color: #d6d9da;
+  border-radius: 0.25rem;
+}
+
 /*-----------------------------------------------------------------------------------*/
 /*  Footer
 /*-----------------------------------------------------------------------------------*/

@@ -155,9 +155,7 @@ button::-moz-focus-inner {
   width: 100%; }
 
 .mfp-counter {
-  position: absolute;
-  top: 0;
-  right: 0;
+  text-align: right;
   color: #CCC;
   font-size: 12px;
   line-height: 18px;
@@ -288,8 +286,7 @@ img.mfp-img {
   text-align: left;
   line-height: 18px;
   color: #F3F3F3;
-  word-wrap: break-word;
-  padding-right: 36px; }
+  word-wrap: break-word;}
 
 .mfp-image-holder .mfp-content {
   max-width: 100%; }

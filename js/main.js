@@ -146,8 +146,8 @@ $(window).load(function(){
     layoutMode: 'fitRows'
   });
 
-  $('#skills-flters li').on( 'click', function() {
-    $("#skills-flters li").removeClass('filter-active');
+  $('#skills-filters li').on( 'click', function() {
+    $("#skills-filters li").removeClass('filter-active');
     $(this).addClass('filter-active');
 
     skillsIsotope.isotope({ filter: $(this).data('filter') });

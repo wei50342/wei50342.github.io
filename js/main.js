@@ -146,7 +146,7 @@ $(window).load(function(){
     layoutMode: 'fitRows'
   });
 
-  $('#skills-filters li').on( 'click', function() {
+  $('#skills-filters li').on( 'mouseenter click', function() {
     $("#skills-filters li").removeClass('filter-active');
     $(this).addClass('filter-active');
 
@@ -154,3 +154,11 @@ $(window).load(function(){
   });
 
 })
+
+// ========================================================================= //
+//  Accomplishment show and hide
+// ========================================================================= //
+
+function showAccomplishment() {
+  $(".accomplishment").toggleClass('d-none');
+}

@@ -473,7 +473,7 @@ nav ul li a {
 }
 
 .skills-thumbnail {
-  margin-bottom: 30px;
+  margin-bottom: 15px;
   overflow: hidden;
   min-height: 150px;
 }
@@ -760,16 +760,24 @@ nav ul li a {
   border-radius: 21px 0 0
 }
 
-.main-timeline .timeline:nth-child(2) {
+.main-timeline .timeline:nth-child(2){
   margin-top: 180px
 }
 
+.main-timeline .timeline:nth-child(4) {
+  margin-top: 100px
+}
+
 .main-timeline .timeline:nth-child(odd) {
-  margin: -175px 0 0
+  margin: -100px 0 0
 }
 
 .main-timeline .timeline:nth-child(even) {
   margin-bottom: 80px
+}
+
+.main-timeline .timeline:last-child {
+  margin: -260px 0 0;
 }
 
 .main-timeline .timeline:first-child, .main-timeline .timeline:last-child:nth-child(even) {

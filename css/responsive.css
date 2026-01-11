@@ -39,6 +39,19 @@
     padding-top: 10px;
     padding-bottom: 10px;
   }
+  .nav-menu li.lang-item {
+    display: block;
+    margin-left: 0;
+    padding-left: 0;
+    border-left: none;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .nav-menu li.lang-item a {
+    padding: 10px;
+    font-size: 15px;
+  }
   .responsive {
     float: right;
     padding-top: 15px;
@@ -109,6 +122,19 @@
     margin-left: 0;
     padding-top: 10px;
     padding-bottom: 10px;
+  }
+  .nav-menu li.lang-item {
+    display: block;
+    margin-left: 0;
+    padding-left: 0;
+    border-left: none;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .nav-menu li.lang-item a {
+    padding: 10px;
+    font-size: 15px;
   }
   .responsive {
     float: right;
@@ -446,8 +472,10 @@
     left: .5%
   }
   .main-timeline .circle span {
-    line-height: 115px;
-    font-size: 60px
+    line-height: 110px;
+  }
+  .main-timeline .brand span {
+    font-size: 60px;
   }
   .main-timeline .circle span:after, .main-timeline .circle span:before, .main-timeline .circle:before, .main-timeline .icon {
     display: none
